@@ -12,4 +12,16 @@ public class MaximumSubarrayTest {
         int expect = 6;
         Assert.assertEquals(expect, MaximumSubarray.maxSubArray(nums));
     }
+    @Test
+    public void maximumSubarrayTest2() {
+        int[] nums = {1};
+        int expect = 1;
+        Assert.assertEquals(expect, MaximumSubarray.maxSubArray(nums));
+    }
+    @Test
+    public void maximumSubarrayTest3() {
+        int[] nums = {5,4,-1,7,8};
+        int expect = 23;
+        Assert.assertEquals(expect, MaximumSubarray.maxSubArray(nums));
+    }
 }

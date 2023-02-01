@@ -18,4 +18,8 @@ public class BestTimetoBuyandSellStockTest {
         int expect = 0;
         Assert.assertEquals(expect, BestTimetoBuyandSellStock.maxProfit(prices));
     }
+
+    public static class FindMinimuminRotatedSortedArrayTest {
+
+    }
 }
